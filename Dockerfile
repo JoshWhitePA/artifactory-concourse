@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 
 
-RUN apt-get update; apt-get install -y curl; apt-get install -y bash; ; apt-get install -y jq;
+RUN apt-get update; apt-get install -y curl; apt-get install -y bash; apt-get install -y jq;
 
 
 RUN cd /bin; curl -fL https://getcli.jfrog.io | sh;
